@@ -4,7 +4,7 @@ console.log(process.cwd());
 //process.chdir(); change directory;
 process.chdir('..');
 console.log(process.cwd()); //可以被chdir
-console.log(__dirname);//不会被chdir
+console.log(__dirname);//不会 被chdir
 //memoryUsage
 //{ rss: 19013632, heapTotal: 10505040, heapUsed: 5278728 }
 /*var arr = [];
